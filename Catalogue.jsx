@@ -1,0 +1,1 @@
+export default function Catalogue() { return <div><h1>My Catalogue</h1><p>Coming soon...</p></div> }
