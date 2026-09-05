@@ -172,7 +172,6 @@ app.get('/api/stats', auth, async (req, res) => {
 // Health check
 app.get('/api/health', (req, res) => res.json({ status: 'ok', time: new Date().toISOString() }))
 // Static Files Serve करने के लिए
-const path = require('path');
 app.use(express.static(__dirname));
 
 app.get('*', (req, res) => {
